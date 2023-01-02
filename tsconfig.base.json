@@ -1,0 +1,18 @@
+{
+  "extends": "@tsconfig/node18-strictest-esm/tsconfig.json",
+  "exclude": [
+    "**/node_modules"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "lib": [
+      "esnext"
+    ], 
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "noEmitOnError": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": false,
+  }
+}

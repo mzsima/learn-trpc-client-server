@@ -1,4 +1,6 @@
-# pnpmのworkspaceでクラサバ
+# learn client server
+
+## Lesson1. pnpmのworkspaceでクラサバ
 
 [trpc](https://trpc.io/)を使ってみたかったので、クライアントとサーバーに分けてシンプルな構成でモノレポの骨組みを作ってみます。こんな感じのものができる予定。
 trpcはスキーマ無しでAPIをクライアント側で簡単に使える的なアレ。
