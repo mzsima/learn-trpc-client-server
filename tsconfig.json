@@ -1,0 +1,22 @@
+{
+  "extends": "@tsconfig/node18-strictest-esm/tsconfig.json",
+  "files": [],
+  "references": [
+    {
+      "path": "./server"
+    },
+    {
+      "path": "./client"
+    }
+  ],
+  "include": [],
+  "exclude": [
+    "**/node_modules",
+    "**/dist"
+  ],
+  "compilerOptions": {
+    "lib": [
+      "esnext"
+    ],
+  }
+}
